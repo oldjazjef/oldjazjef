@@ -9,6 +9,10 @@ A few small tools that grew out of my day-to-day work:
 - [docker-ionic-build-android](https://github.com/oldjazjef/docker-ionic-build-android): build Android APKs with Ionic and Capacitor inside Docker
 - [replicate-host-psql-db-to-docker](https://github.com/oldjazjef/replicate-host-psql-db-to-docker): copy a remote PostgreSQL database into a local Docker container
 
+### REDAXO add-ons
+
+For the [REDAXO](https://redaxo.org/) CMS I built [redaxo-addon-env-middleware](https://github.com/oldjazjef/redaxo-addon-env-middleware): manage environments, expose environment variables to the frontend and proxy API calls with server-side OAuth, so credentials never reach the browser.
+
 ### Editor tooling
 
 I'm also building [vscode-json-tools](https://github.com/oldjazjef/vscode-json-tools), a VS Code extension to jump to nested JSON paths, browse a JSON outline and find where config keys are used in your code.
