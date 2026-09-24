@@ -2,10 +2,6 @@
 
 I'm Emanuel, a software developer from Baden, Switzerland 🇨🇭, currently working at [etrex GmbH](https://www.etrex.ch/).
 
-### .NET libraries
-
-If you work with Swiss accounting software, my [bexio-dotnet](https://github.com/oldjazjef/bexio-dotnet) library might be useful: a .NET client for the bexio API v2.
-
 ### Docker & DevOps helpers 🐳
 
 A few small tools that grew out of my day-to-day work:
@@ -19,7 +15,7 @@ I'm also building [vscode-json-tools](https://github.com/oldjazjef/vscode-json-t
 
 ### Writing ✍️
 
-I write about software development on [Medium](https://medium.com/@jazcan).
+I write about this and that on [Medium](https://medium.com/@jazcan).
 
 ### Support ☕
 
