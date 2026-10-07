@@ -2,6 +2,12 @@
 
 I'm Emanuel, a software developer from Baden, Switzerland 🇨🇭, currently working at [etrex GmbH](https://www.etrex.ch/).
 
+### lazy-koins 🪙
+
+[lazy-koins](https://github.com/oldjazjef/lazy-koins) turns exports from crypto exchanges and wallets into the Swiss tax documents for one year: wealth on 31 December and income, as PDF and Excel. It reads any platform through declarative mappings (or lets an AI write them), fetches historical prices, checks that ledgers and statements add up, and lists every transaction with how it counts for tax. Runs as a web app ([lazy-koins.hello-eme.ch](https://lazy-koins.hello-eme.ch)) and as a desktop app for macOS and Windows where the data never leaves your machine. A hobby project, not tax advice.
+
+Built with Angular, NestJS, SQLite/Prisma, Electron and Nx.
+
 ### Docker & DevOps helpers 🐳
 
 A few small tools that grew out of my day-to-day work:
@@ -35,6 +41,9 @@ If you found any of my stuff useful and feel generous, feel free to buy me a cof
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![Nx](https://img.shields.io/badge/nx-143055?style=for-the-badge&logo=nx&logoColor=white)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MS SQL Server](https://img.shields.io/badge/MS%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
