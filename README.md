@@ -2,6 +2,21 @@
 
 I'm Emanuel, a software developer from Baden, Switzerland 🇨🇭, currently working at [etrex GmbH](https://www.etrex.ch/).
 
+### lazy-koins 🪙
+
+<a href="https://lazy-koins.hello-eme.ch"><img src="https://raw.githubusercontent.com/oldjazjef/lazy-koins/93b544b43e618726db874cea6dd394873cfbba0f/docs/screenshots/lazy-koins-titel.webp" alt="lazy-koins" width="480" align="right"></a>
+
+[lazy-koins](https://github.com/oldjazjef/lazy-koins) turns the exports of crypto exchanges and wallets into Swiss tax documents: wealth at 31 December, income of the year, and a statement as PDF and Excel for the tax office or your accountant. I built it because the existing tools charge a yearly subscription for something that should just work.
+
+- Mappings instead of a parser per exchange, plus a shared mapping library
+- Public wallet addresses fetched directly (Bitcoin, EVM chains, Solana)
+- Rates from the ESTV list, every figure traceable to the row it came from
+- Dashboard, AI assistant and MCP server, web and desktop app (German and English)
+
+Running at [lazy-koins.hello-eme.ch](https://lazy-koins.hello-eme.ch) – still in development. More on [hello-eme.ch](https://hello-eme.ch/projects/lazy-koins).
+
+<br clear="right">
+
 ### Docker & DevOps helpers 🐳
 
 A few small tools that grew out of my day-to-day work:
