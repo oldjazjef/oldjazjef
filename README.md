@@ -4,18 +4,9 @@ I'm Emanuel, a software developer from Baden, Switzerland 🇨🇭, currently wo
 
 ### lazy-koins 🪙
 
-<a href="https://lazy-koins.hello-eme.ch"><img src="https://raw.githubusercontent.com/oldjazjef/lazy-koins/93b544b43e618726db874cea6dd394873cfbba0f/docs/screenshots/lazy-koins-titel.webp" alt="lazy-koins" width="480" align="right"></a>
+[lazy-koins](https://github.com/oldjazjef/lazy-koins) turns exports from crypto exchanges and wallets into the Swiss tax documents for one year: wealth on 31 December and income, as PDF and Excel. It reads any platform through declarative mappings (or lets an AI write them), fetches historical prices, checks that ledgers and statements add up, and lists every transaction with how it counts for tax. Runs as a web app ([lazy-koins.hello-eme.ch](https://lazy-koins.hello-eme.ch)) and as a desktop app for macOS and Windows where the data never leaves your machine. A hobby project, not tax advice.
 
-[lazy-koins](https://github.com/oldjazjef/lazy-koins) turns the exports of crypto exchanges and wallets into Swiss tax documents: wealth at 31 December, income of the year, and a statement as PDF and Excel for the tax office or your accountant. I built it because the existing tools charge a yearly subscription for something that should just work.
-
-- Mappings instead of a parser per exchange, plus a shared mapping library
-- Public wallet addresses fetched directly (Bitcoin, EVM chains, Solana)
-- Rates from the ESTV list, every figure traceable to the row it came from
-- Dashboard, AI assistant and MCP server, web and desktop app (German and English)
-
-Running at [lazy-koins.hello-eme.ch](https://lazy-koins.hello-eme.ch) – still in development. More on [hello-eme.ch](https://hello-eme.ch/projects/lazy-koins).
-
-<br clear="right">
+Built with Angular, NestJS, SQLite/Prisma, Electron and Nx.
 
 ### Docker & DevOps helpers 🐳
 
@@ -50,6 +41,9 @@ If you found any of my stuff useful and feel generous, feel free to buy me a cof
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![Nx](https://img.shields.io/badge/nx-143055?style=for-the-badge&logo=nx&logoColor=white)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MS SQL Server](https://img.shields.io/badge/MS%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
