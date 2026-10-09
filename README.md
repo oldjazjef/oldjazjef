@@ -14,6 +14,12 @@ Built with Angular, NestJS, SQLite/Prisma, Electron and Nx.
 
 Built with Electron, Angular, NestJS, SQLite/Prisma and Nx.
 
+### bexio-dotnet 🧾
+
+[bexio-dotnet](https://github.com/oldjazjef/bexio-dotnet) is a .NET client for the [bexio](https://www.bexio.com) API. It covers API versions 2.0, 3.0 and 4.0: invoices, orders, contacts, projects and time tracking, accounting, files, purchasing and payroll. You sign in with a personal access token or with OAuth2 as an app registered at bexio, tokens are refreshed automatically and one client can serve several bexio accounts. All calls are also async, rate limits are retried, and it plugs into dependency injection via `AddBexio(...)`. CI/CD on GitHub Actions, planned to be published to NuGet through trusted publishing.
+
+Built with .NET 10, C# and GitHub Actions.
+
 ### Docker & DevOps helpers 🐳
 
 A few small tools that grew out of my day-to-day work:
