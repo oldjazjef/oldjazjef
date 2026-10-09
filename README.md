@@ -8,12 +8,17 @@ I'm Emanuel, a software developer from Baden, Switzerland 🇨🇭, currently wo
 
 Built with Angular, NestJS, SQLite/Prisma, Electron and Nx.
 
+### Mirrorbase 🪞
+
+[Mirrorbase](https://github.com/oldjazjef/mirrorbase) is a small desktop app that copies a database from a saved source to a saved target. It remembers your connections, keeps passwords encrypted with the key in the OS keychain, lists the databases running in Docker, logs every run and locks behind a PIN. Every database type is a plugin: PostgreSQL and SQLite today, copying between different types is planned. It grew out of a PowerShell script that copied a remote PostgreSQL database into a local Docker container.
+
+Built with Electron, Angular, NestJS, SQLite/Prisma and Nx.
+
 ### Docker & DevOps helpers 🐳
 
 A few small tools that grew out of my day-to-day work:
 
 - [docker-ionic-build-android](https://github.com/oldjazjef/docker-ionic-build-android): build Android APKs with Ionic and Capacitor inside Docker
-- [replicate-host-psql-db-to-docker](https://github.com/oldjazjef/replicate-host-psql-db-to-docker): copy a remote PostgreSQL database into a local Docker container
 
 ### REDAXO add-ons
 
