@@ -1,7 +1,5 @@
 <div align="center">
 
-# Emanuel Mistretta
-
 Software developer in Baden, Switzerland. Currently at [etrex GmbH](https://www.etrex.ch/).
 
 **Creative by nature. I love trying new things and turning ideas into working software, no matter how silly they sound.**
