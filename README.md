@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/eme-walker.svg" alt="Pixel figure from hello-eme.ch walking" width="120" height="120" />
+
 Software developer in Baden, Switzerland. Currently at [etrex GmbH](https://www.etrex.ch/).
 
 **Creative by nature. I love trying new things and turning ideas into working software, no matter how silly they sound.**
