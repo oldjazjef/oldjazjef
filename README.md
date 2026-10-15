@@ -7,6 +7,7 @@
 Currently at [etrex GmbH](https://www.etrex.ch/) 🇨🇭
 
 [![Website](https://img.shields.io/badge/hello--eme.ch-000000?style=flat-square&logo=About.me&logoColor=white)](https://hello-eme.ch)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/oldjazjef)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@jazcan)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://ch.linkedin.com/in/emanuel-m-109968159)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/hello.eme)
