@@ -2,9 +2,11 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:5C2D91,100:DD0031&text=Emanuel%20Mistretta&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=Software%20developer%20%C2%B7%20Baden%2C%20Switzerland&descAlignY=60&descSize=18" alt="Emanuel Mistretta - Software developer, Baden, Switzerland" width="100%" />
 
-**I build software that helps people, and I like it clean, secure and boring in production.**
+<img src="https://github.com/oldjazjef.png?size=240" alt="Emanuel Mistretta" width="120" />
 
-Currently at [etrex GmbH](https://www.etrex.ch/) 🇨🇭
+**Creative by nature. I love trying new things and turning ideas into working software, no matter how silly they sound.**
+
+Currently at [etrex GmbH](https://www.etrex.ch/)
 
 [![Website](https://img.shields.io/badge/hello--eme.ch-000000?style=flat-square&logo=About.me&logoColor=white)](https://hello-eme.ch)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/oldjazjef)
@@ -16,13 +18,13 @@ Currently at [etrex GmbH](https://www.etrex.ch/) 🇨🇭
 
 ---
 
-## 🚀 What I'm building
+## What I'm building
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ [Moat](https://github.com/oldjazjef/moat)
+### [Moat](https://github.com/oldjazjef/moat)
 *In development*
 
 A tiny PHP gate for the hosting you already have. It keeps API keys out of the browser and forwards only the requests you explicitly allow: exact method and path, fixed HTTPS target, rate limits and size limits, lockable with one command. Config is signed data and secrets are sealed per gate, so even a compromised Moat Cloud can't compromise the gate. Includes a CLI and a desktop app.
@@ -32,7 +34,7 @@ A tiny PHP gate for the hosting you already have. It keeps API keys out of the b
 </td>
 <td width="50%" valign="top">
 
-### 🪙 [lazy-koins](https://github.com/oldjazjef/lazy-koins)
+### [lazy-koins](https://github.com/oldjazjef/lazy-koins)
 *[Live demo](https://lazy-koins.hello-eme.ch)*
 
 Turns exports from crypto exchanges and wallets into the Swiss tax documents for one year: wealth on 31 December and income, as PDF and Excel. Declarative mappings (or let an AI write them), historical prices, ledger checks and a per-transaction tax breakdown. Web app, or a desktop app where your data never leaves your machine. Hobby project, not tax advice.
@@ -44,7 +46,7 @@ Turns exports from crypto exchanges and wallets into the Swiss tax documents for
 <tr>
 <td width="50%" valign="top">
 
-### 🪞 [Mirrorbase](https://github.com/oldjazjef/mirrorbase)
+### [Mirrorbase](https://github.com/oldjazjef/mirrorbase)
 
 A desktop app that copies a database from a saved source to a saved target. Encrypted connections with the key in the OS keychain, Docker discovery, run logs and a PIN lock. Every database type is a plugin: PostgreSQL and SQLite today.
 
@@ -53,7 +55,7 @@ A desktop app that copies a database from a saved source to a saved target. Encr
 </td>
 <td width="50%" valign="top">
 
-### 🧾 [bexio-dotnet](https://github.com/oldjazjef/bexio-dotnet)
+### [bexio-dotnet](https://github.com/oldjazjef/bexio-dotnet)
 
 A .NET client for the [bexio](https://www.bexio.com) API (2.0 and 3.0): invoices, orders, contacts, projects, time tracking, accounting and files. Personal token or OAuth2, automatic token refresh, multi-account, async, retried rate limits and DI via `AddBexio(...)`.
 
@@ -67,17 +69,17 @@ dotnet add package Bexio.DotNet
 </tr>
 </table>
 
-### 🧰 Smaller tools
+### Smaller tools
 
 | Project | What it does |
 | --- | --- |
-| 🐳 [docker-ionic-build-android](https://github.com/oldjazjef/docker-ionic-build-android) | Build Android APKs with Ionic and Capacitor inside Docker |
-| 🔌 [redaxo-addon-env-middleware](https://github.com/oldjazjef/redaxo-addon-env-middleware) | [REDAXO](https://redaxo.org/) add-on: environments, env variables for the frontend and API proxying with server-side OAuth, so credentials never reach the browser |
-| 🧭 [vscode-json-tools](https://github.com/oldjazjef/vscode-json-tools) | VS Code extension: jump to nested JSON paths, browse a JSON outline, find where config keys are used |
+| [docker-ionic-build-android](https://github.com/oldjazjef/docker-ionic-build-android) | Build Android APKs with Ionic and Capacitor inside Docker |
+| [redaxo-addon-env-middleware](https://github.com/oldjazjef/redaxo-addon-env-middleware) | [REDAXO](https://redaxo.org/) add-on: environments, env variables for the frontend and API proxying with server-side OAuth, so credentials never reach the browser |
+| [vscode-json-tools](https://github.com/oldjazjef/vscode-json-tools) | VS Code extension: jump to nested JSON paths, browse a JSON outline, find where config keys are used |
 
 ---
 
-## 🛠️ Stack
+## Stack
 
 <div align="center">
 
@@ -103,8 +105,8 @@ dotnet add package Bexio.DotNet
 
 <div align="center">
 
-✍️ I write about this and that on [Medium](https://medium.com/@jazcan).
-If something here saved you time, you can [buy me a coffee](https://buymeacoffee.com/hello.eme) ☕
+I write about this and that on [Medium](https://medium.com/@jazcan).
+If something here saved you time, you can [buy me a coffee](https://buymeacoffee.com/hello.eme).
 
 <a href="https://buymeacoffee.com/hello.eme" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="48" /></a>
 
