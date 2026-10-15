@@ -18,10 +18,6 @@ Software developer in Baden, Switzerland. Currently at [etrex GmbH](https://www.
 
 ## What I'm building
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### [Moat](https://github.com/oldjazjef/moat)
 *In development*
 
@@ -29,8 +25,16 @@ A tiny PHP gate for the hosting you already have. It keeps API keys out of the b
 
 `TypeScript` `PHP` `Electron` `Angular` `libsodium` `Nx`
 
-</td>
-<td width="50%" valign="top">
+### [hello-eme-play](https://github.com/oldjazjef/hello-eme-play)
+*[Play it on hello-eme.ch](https://hello-eme.ch) · [Try the editor and guide](https://oldjazjef.github.io/hello-eme-play/)*
+
+Turns any website into a game, configured by one JSON. The page itself is the playing field: walk over it, punch paragraphs until they break, fight monsters, jump on cards and drive a car. Top-down or side-scroller, levels, waves and bosses, items, triggers, custom sprites and touch controls. Works with plain HTML, any framework and any CMS. A configuration editor (one script, no framework; also a Payload plugin) brings presets, a live preview, a balance check and a guide, and headless bots help balance the game.
+
+```html
+<script src="/play.js" data-config="{}" defer></script>
+```
+
+`TypeScript` `React` `Payload CMS` `Playwright` `Nx`
 
 ### [lazy-koins](https://github.com/oldjazjef/lazy-koins)
 *[Live demo](https://lazy-koins.hello-eme.ch)*
@@ -39,19 +43,11 @@ Turns exports from crypto exchanges and wallets into the Swiss tax documents for
 
 `Angular` `NestJS` `SQLite/Prisma` `Electron` `Nx`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### [Mirrorbase](https://github.com/oldjazjef/mirrorbase)
 
 A desktop app that copies a database from a saved source to a saved target. Encrypted connections with the key in the OS keychain, Docker discovery, run logs and a PIN lock. Every database type is a plugin: PostgreSQL and SQLite today.
 
 `Electron` `Angular` `NestJS` `SQLite/Prisma` `Nx`
-
-</td>
-<td width="50%" valign="top">
 
 ### [bexio-dotnet](https://github.com/oldjazjef/bexio-dotnet)
 
@@ -63,30 +59,13 @@ dotnet add package Bexio.DotNet
 
 [![NuGet](https://img.shields.io/nuget/v/Bexio.DotNet?style=flat-square&logo=nuget)](https://www.nuget.org/packages/Bexio.DotNet)
 
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### [hello-eme-play](https://github.com/oldjazjef/hello-eme-play)
-*[Play it on hello-eme.ch](https://hello-eme.ch)*
-
-Turns any website into a game, configured by one JSON. The page itself is the playing field: walk over it, punch paragraphs until they break, fight monsters, jump on cards and drive a car. Top-down or side-scroller, levels, items, triggers, custom sprites and touch controls. Works with plain HTML, any framework and any CMS; a Payload plugin edits the JSON in the admin, and headless bots help balance it.
-
-```html
-<script src="/play.js" data-config="{}" defer></script>
-```
-
-`TypeScript` `Payload CMS` `Playwright` `Nx`
-
-</td>
-</tr>
-</table>
-
 ### Smaller tools
 
-| Project | What it does |
-| --- | --- |
+- [docker-ionic-build-android](https://github.com/oldjazjef/docker-ionic-build-android): build Android APKs with Ionic and Capacitor inside Docker
+- [redaxo-addon-env-middleware](https://github.com/oldjazjef/redaxo-addon-env-middleware): [REDAXO](https://redaxo.org/) add-on with environments, env variables for the frontend and API proxying with server-side OAuth, so credentials never reach the browser
+- [vscode-json-tools](https://github.com/oldjazjef/vscode-json-tools): VS Code extension to jump to nested JSON paths, browse a JSON outline and find where config keys are used
+
+--- | --- |
 | [docker-ionic-build-android](https://github.com/oldjazjef/docker-ionic-build-android) | Build Android APKs with Ionic and Capacitor inside Docker |
 | [redaxo-addon-env-middleware](https://github.com/oldjazjef/redaxo-addon-env-middleware) | [REDAXO](https://redaxo.org/) add-on: environments, env variables for the frontend and API proxying with server-side OAuth, so credentials never reach the browser |
 | [vscode-json-tools](https://github.com/oldjazjef/vscode-json-tools) | VS Code extension: jump to nested JSON paths, browse a JSON outline, find where config keys are used |
