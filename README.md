@@ -1,75 +1,110 @@
-## Hi there 👋
+<div align="center">
 
-I'm Emanuel, a software developer from Baden, Switzerland 🇨🇭, currently working at [etrex GmbH](https://www.etrex.ch/).
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:5C2D91,100:DD0031&text=Emanuel%20Mistretta&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=Software%20developer%20%C2%B7%20Baden%2C%20Switzerland&descAlignY=60&descSize=18" alt="Emanuel Mistretta - Software developer, Baden, Switzerland" width="100%" />
 
-### Moat 🛡️
+**I build software that helps people, and I like it clean, secure and boring in production.**
 
-[Moat](https://github.com/oldjazjef/moat) is a small PHP gate for the hosting you already have. It keeps API keys out of the browser and only forwards requests you have explicitly allowed. It is a single PHP file with no Composer and no database, aimed at small companies whose website runs on shared hosting and needs to talk to services like HubSpot or OpenAI. The gate forwards only allowed routes (exact method and path, fixed HTTPS target), adds the API key on the way out, applies rate limits and size limits, and can be locked with one command. Config is plain data, signed with your own key, and secrets are sealed per gate, so even a compromised Moat Cloud can't compromise the gate. Includes a CLI and a desktop app; Moat Cloud is still planned. Still in development.
+Currently at [etrex GmbH](https://www.etrex.ch/) 🇨🇭
 
-Built with TypeScript, PHP, Electron, Angular, libsodium and Nx.
+[![Website](https://img.shields.io/badge/hello--eme.ch-000000?style=flat-square&logo=About.me&logoColor=white)](https://hello-eme.ch)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@jazcan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://ch.linkedin.com/in/emanuel-m-109968159)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/hello.eme)
 
-### lazy-koins 🪙
+</div>
 
-[lazy-koins](https://github.com/oldjazjef/lazy-koins) turns exports from crypto exchanges and wallets into the Swiss tax documents for one year: wealth on 31 December and income, as PDF and Excel. It reads any platform through declarative mappings (or lets an AI write them), fetches historical prices, checks that ledgers and statements add up, and lists every transaction with how it counts for tax. Runs as a web app ([lazy-koins.hello-eme.ch](https://lazy-koins.hello-eme.ch)) and as a desktop app for macOS and Windows where the data never leaves your machine. A hobby project, not tax advice.
+---
 
-Built with Angular, NestJS, SQLite/Prisma, Electron and Nx.
+## 🚀 What I'm building
 
-### Mirrorbase 🪞
+<table>
+<tr>
+<td width="50%" valign="top">
 
-[Mirrorbase](https://github.com/oldjazjef/mirrorbase) is a small desktop app that copies a database from a saved source to a saved target. It remembers your connections, keeps passwords encrypted with the key in the OS keychain, lists the databases running in Docker, logs every run and locks behind a PIN. Every database type is a plugin: PostgreSQL and SQLite today, copying between different types is planned. It grew out of a PowerShell script that copied a remote PostgreSQL database into a local Docker container.
+### 🛡️ [Moat](https://github.com/oldjazjef/moat)
+*In development*
 
-Built with Electron, Angular, NestJS, SQLite/Prisma and Nx.
+A tiny PHP gate for the hosting you already have. It keeps API keys out of the browser and forwards only the requests you explicitly allow: exact method and path, fixed HTTPS target, rate limits and size limits, lockable with one command. Config is signed data and secrets are sealed per gate, so even a compromised Moat Cloud can't compromise the gate. Includes a CLI and a desktop app.
 
-### bexio-dotnet 🧾
+`TypeScript` `PHP` `Electron` `Angular` `libsodium` `Nx`
 
-[bexio-dotnet](https://github.com/oldjazjef/bexio-dotnet) is a .NET client for the [bexio](https://www.bexio.com) API. It covers API versions 2.0 and 3.0: invoices, orders, contacts, projects and time tracking, accounting and files. You sign in with a personal access token or with OAuth2 as an app registered at bexio, tokens are refreshed automatically and one client can serve several bexio accounts. All calls are also async, rate limits are retried, and it plugs into dependency injection via `AddBexio(...)`. CI/CD on GitHub Actions, published to [NuGet](https://www.nuget.org/packages/Bexio.DotNet) through trusted publishing: `dotnet add package Bexio.DotNet`.
+</td>
+<td width="50%" valign="top">
 
-Built with .NET 10, C# and GitHub Actions.
+### 🪙 [lazy-koins](https://github.com/oldjazjef/lazy-koins)
+*[Live demo](https://lazy-koins.hello-eme.ch)*
 
-### Docker & DevOps helpers 🐳
+Turns exports from crypto exchanges and wallets into the Swiss tax documents for one year: wealth on 31 December and income, as PDF and Excel. Declarative mappings (or let an AI write them), historical prices, ledger checks and a per-transaction tax breakdown. Web app, or a desktop app where your data never leaves your machine. Hobby project, not tax advice.
 
-A few small tools that grew out of my day-to-day work:
+`Angular` `NestJS` `SQLite/Prisma` `Electron` `Nx`
 
-- [docker-ionic-build-android](https://github.com/oldjazjef/docker-ionic-build-android): build Android APKs with Ionic and Capacitor inside Docker
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### REDAXO add-ons
+### 🪞 [Mirrorbase](https://github.com/oldjazjef/mirrorbase)
 
-For the [REDAXO](https://redaxo.org/) CMS I built [redaxo-addon-env-middleware](https://github.com/oldjazjef/redaxo-addon-env-middleware): manage environments, expose environment variables to the frontend and proxy API calls with server-side OAuth, so credentials never reach the browser.
+A desktop app that copies a database from a saved source to a saved target. Encrypted connections with the key in the OS keychain, Docker discovery, run logs and a PIN lock. Every database type is a plugin: PostgreSQL and SQLite today.
 
-### Editor tooling
+`Electron` `Angular` `NestJS` `SQLite/Prisma` `Nx`
 
-I'm also building [vscode-json-tools](https://github.com/oldjazjef/vscode-json-tools), a VS Code extension to jump to nested JSON paths, browse a JSON outline and find where config keys are used in your code.
+</td>
+<td width="50%" valign="top">
 
-### Writing ✍️
+### 🧾 [bexio-dotnet](https://github.com/oldjazjef/bexio-dotnet)
 
-I write about this and that on [Medium](https://medium.com/@jazcan).
+A .NET client for the [bexio](https://www.bexio.com) API (2.0 and 3.0): invoices, orders, contacts, projects, time tracking, accounting and files. Personal token or OAuth2, automatic token refresh, multi-account, async, retried rate limits and DI via `AddBexio(...)`.
 
-### Support ☕
+```
+dotnet add package Bexio.DotNet
+```
 
-If you found any of my stuff useful and feel generous, feel free to buy me a coffee. (I do like coffee ☕️)
+[![NuGet](https://img.shields.io/nuget/v/Bexio.DotNet?style=flat-square&logo=nuget)](https://www.nuget.org/packages/Bexio.DotNet)
 
-<a href="https://buymeacoffee.com/hello.eme" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+</td>
+</tr>
+</table>
 
-### Current technologies
+### 🧰 Smaller tools
 
-![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
-![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![Nx](https://img.shields.io/badge/nx-143055?style=for-the-badge&logo=nx&logoColor=white)
-![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MS SQL Server](https://img.shields.io/badge/MS%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-35b393.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+| Project | What it does |
+| --- | --- |
+| 🐳 [docker-ionic-build-android](https://github.com/oldjazjef/docker-ionic-build-android) | Build Android APKs with Ionic and Capacitor inside Docker |
+| 🔌 [redaxo-addon-env-middleware](https://github.com/oldjazjef/redaxo-addon-env-middleware) | [REDAXO](https://redaxo.org/) add-on: environments, env variables for the frontend and API proxying with server-side OAuth, so credentials never reach the browser |
+| 🧭 [vscode-json-tools](https://github.com/oldjazjef/vscode-json-tools) | VS Code extension: jump to nested JSON paths, browse a JSON outline, find where config keys are used |
 
-### Find me elsewhere
+---
 
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@jazcan)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/hello.eme)
-[![Website](https://img.shields.io/badge/etrex.ch-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://www.etrex.ch/)
+## 🛠️ Stack
+
+<div align="center">
+
+![.NET](https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495e?style=flat-square&logo=vuedotjs&logoColor=4FC08D)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-191970?style=flat-square&logo=electron&logoColor=white)
+![Nx](https://img.shields.io/badge/Nx-143055?style=flat-square&logo=nx&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Postgres](https://img.shields.io/badge/Postgres-316192?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405e?style=flat-square&logo=sqlite&logoColor=white)
+![MS SQL Server](https://img.shields.io/badge/MS%20SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-35b393?style=flat-square&logo=visual-studio-code&logoColor=white)
+
+</div>
+
+---
+
+<div align="center">
+
+✍️ I write about this and that on [Medium](https://medium.com/@jazcan).
+If something here saved you time, you can [buy me a coffee](https://buymeacoffee.com/hello.eme) ☕
+
+<a href="https://buymeacoffee.com/hello.eme" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="48" /></a>
+
+</div>
