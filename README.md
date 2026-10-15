@@ -2,6 +2,12 @@
 
 I'm Emanuel, a software developer from Baden, Switzerland 🇨🇭, currently working at [etrex GmbH](https://www.etrex.ch/).
 
+### Moat 🛡️
+
+[Moat](https://github.com/oldjazjef/moat) is a small PHP gate for the hosting you already have. It keeps API keys out of the browser and only forwards requests you have explicitly allowed. It is a single PHP file with no Composer and no database, aimed at small companies whose website runs on shared hosting and needs to talk to services like HubSpot or OpenAI. The gate forwards only allowed routes (exact method and path, fixed HTTPS target), adds the API key on the way out, applies rate limits and size limits, and can be locked with one command. Config is plain data, signed with your own key, and secrets are sealed per gate, so even a compromised Moat Cloud can't compromise the gate. Includes a CLI and a desktop app; Moat Cloud is still planned. Still in development.
+
+Built with TypeScript, PHP, Electron, Angular, libsodium and Nx.
+
 ### lazy-koins 🪙
 
 [lazy-koins](https://github.com/oldjazjef/lazy-koins) turns exports from crypto exchanges and wallets into the Swiss tax documents for one year: wealth on 31 December and income, as PDF and Excel. It reads any platform through declarative mappings (or lets an AI write them), fetches historical prices, checks that ledgers and statements add up, and lists every transaction with how it counts for tax. Runs as a web app ([lazy-koins.hello-eme.ch](https://lazy-koins.hello-eme.ch)) and as a desktop app for macOS and Windows where the data never leaves your machine. A hobby project, not tax advice.
