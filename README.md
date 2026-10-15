@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:5C2D91,100:DD0031&text=Emanuel%20Mistretta&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=Software%20developer%20%C2%B7%20Baden%2C%20Switzerland&descAlignY=60&descSize=18" alt="Emanuel Mistretta - Software developer, Baden, Switzerland" width="100%" />
+# Emanuel Mistretta
 
-<img src="https://github.com/oldjazjef.png?size=240" alt="Emanuel Mistretta" width="120" />
+Software developer in Baden, Switzerland. Currently at [etrex GmbH](https://www.etrex.ch/).
 
 **Creative by nature. I love trying new things and turning ideas into working software, no matter how silly they sound.**
-
-Currently at [etrex GmbH](https://www.etrex.ch/)
 
 [![Website](https://img.shields.io/badge/hello--eme.ch-000000?style=flat-square&logo=About.me&logoColor=white)](https://hello-eme.ch)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/oldjazjef)
