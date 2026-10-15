@@ -65,6 +65,22 @@ dotnet add package Bexio.DotNet
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+### [hello-eme-play](https://github.com/oldjazjef/hello-eme-play)
+*[Play it on hello-eme.ch](https://hello-eme.ch)*
+
+Turns any website into a game, configured by one JSON. The page itself is the playing field: walk over it, punch paragraphs until they break, fight monsters, jump on cards and drive a car. Top-down or side-scroller, levels, items, triggers, custom sprites and touch controls. Works with plain HTML, any framework and any CMS; a Payload plugin edits the JSON in the admin, and headless bots help balance it.
+
+```html
+<script src="/play.js" data-config="{}" defer></script>
+```
+
+`TypeScript` `Payload CMS` `Playwright` `Nx`
+
+</td>
+</tr>
 </table>
 
 ### Smaller tools
