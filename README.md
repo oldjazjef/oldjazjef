@@ -36,6 +36,19 @@ Turns any website into a game, configured by one JSON. The page itself is the pl
 
 `TypeScript` `React` `Payload CMS` `Playwright` `Nx`
 
+### [Claude Arena](https://github.com/oldjazjef/claude-arena)
+*[Latest release](https://github.com/oldjazjef/claude-arena/releases/latest)*
+
+A mod for Claude Code: every subagent your session starts drops into an arena pane beside the chat as a pixel-art brawler, and the tools it calls become its moves. Bash throws an energy orb, Edit kicks, Read jabs. Matches run back to back across five stages, a leaderboard keeps score across sessions, and twelve original fighters are drawn entirely in code.
+
+<a href="https://github.com/oldjazjef/claude-arena"><img src="assets/claude-arena.svg" alt="Claude Arena: four pixel-art brawlers fighting in a rainy neon alley" width="100%" /></a>
+
+```
+/plugin install subagent-arena --marketplace oldjazjef/claude-arena
+```
+
+`TypeScript` `SVG` `Claude Code hooks`
+
 ### [lazy-koins](https://github.com/oldjazjef/lazy-koins)
 *[Live demo](https://lazy-koins.hello-eme.ch)*
 
@@ -65,10 +78,6 @@ dotnet add package Bexio.DotNet
 - [redaxo-addon-env-middleware](https://github.com/oldjazjef/redaxo-addon-env-middleware): [REDAXO](https://redaxo.org/) add-on with environments, env variables for the frontend and API proxying with server-side OAuth, so credentials never reach the browser
 - [vscode-json-tools](https://github.com/oldjazjef/vscode-json-tools): VS Code extension to jump to nested JSON paths, browse a JSON outline and find where config keys are used
 
---- | --- |
-| [docker-ionic-build-android](https://github.com/oldjazjef/docker-ionic-build-android) | Build Android APKs with Ionic and Capacitor inside Docker |
-| [redaxo-addon-env-middleware](https://github.com/oldjazjef/redaxo-addon-env-middleware) | [REDAXO](https://redaxo.org/) add-on: environments, env variables for the frontend and API proxying with server-side OAuth, so credentials never reach the browser |
-| [vscode-json-tools](https://github.com/oldjazjef/vscode-json-tools) | VS Code extension: jump to nested JSON paths, browse a JSON outline, find where config keys are used |
 
 ---
 
